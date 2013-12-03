@@ -21,7 +21,7 @@ import qualified Database.Persist.TH           as PT
 import qualified Database.Persist.Postgresql   as PG
 import qualified Database.Esqueleto            as E
 
--- | custom types are declared there
+-- | Custom types are declared there
 import qualified PersistK                      as PK 
 
 -- | PostgreSQL connection string
