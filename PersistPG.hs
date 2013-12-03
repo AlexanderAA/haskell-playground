@@ -27,8 +27,8 @@ import qualified PersistK                      as PK
 -- | PostgreSQL connection string
 pgConnString :: BU.ByteString
 pgConnString = BU.fromString  $ unwords ["host=127.0.0.1 port=5432"
-                                        ,"user=acid password=acidacid"])
-                                        ,"dbname=acid"])
+                                        ,"user=acid password=acidacid"
+                                        ,"dbname=acid"]
 
 -- | Database schema
 PT.share 
